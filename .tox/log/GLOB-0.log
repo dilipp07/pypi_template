@@ -1,0 +1,65 @@
+action: GLOB, msg: packaging
+cwd: C:\datascience_project
+cmd: 'C:\datascience_project\env\python.exe' setup.py sdist --formats=zip --dist-dir '.tox\dist'
+C:\datascience_project\env\lib\site-packages\setuptools\config\setupcfg.py:293: _DeprecatedConfig: Deprecated config in `setup.cfg`
+!!
+
+        ********************************************************************************
+        The license_file parameter is deprecated, use license_files instead.
+
+        By 2023-Oct-30, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+
+        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+        ********************************************************************************
+
+!!
+  parsed = self.parsers.get(option_name, lambda x: x)(value)
+C:\datascience_project\env\lib\site-packages\setuptools\_distutils\dist.py:265: UserWarning: Unknown distribution option: 'long_description_content'
+  warnings.warn(msg)
+WARNING: ' IPYNBrenderer' not a valid package name; please use only .-separated package names in setup.py
+running sdist
+running egg_info
+writing src\IPYNBrenderer.egg-info\PKG-INFO
+writing dependency_links to src\IPYNBrenderer.egg-info\dependency_links.txt
+writing requirements to src\IPYNBrenderer.egg-info\requires.txt
+writing top-level names to src\IPYNBrenderer.egg-info\top_level.txt
+reading manifest file 'src\IPYNBrenderer.egg-info\SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'src\IPYNBrenderer.egg-info\SOURCES.txt'
+running check
+creating IPYNBrenderer-0.0.0
+creating IPYNBrenderer-0.0.0\src
+creating IPYNBrenderer-0.0.0\src\ IPYNBrenderer
+creating IPYNBrenderer-0.0.0\src\IPYNBrenderer.egg-info
+copying files to IPYNBrenderer-0.0.0...
+copying LICENSE -> IPYNBrenderer-0.0.0
+copying README.md -> IPYNBrenderer-0.0.0
+copying pyproject.toml -> IPYNBrenderer-0.0.0
+copying setup.cfg -> IPYNBrenderer-0.0.0
+copying setup.py -> IPYNBrenderer-0.0.0
+copying src\ IPYNBrenderer\__init__.py -> IPYNBrenderer-0.0.0\src\ IPYNBrenderer
+copying src\IPYNBrenderer.egg-info\PKG-INFO -> IPYNBrenderer-0.0.0\src\IPYNBrenderer.egg-info
+copying src\IPYNBrenderer.egg-info\SOURCES.txt -> IPYNBrenderer-0.0.0\src\IPYNBrenderer.egg-info
+copying src\IPYNBrenderer.egg-info\dependency_links.txt -> IPYNBrenderer-0.0.0\src\IPYNBrenderer.egg-info
+copying src\IPYNBrenderer.egg-info\requires.txt -> IPYNBrenderer-0.0.0\src\IPYNBrenderer.egg-info
+copying src\IPYNBrenderer.egg-info\top_level.txt -> IPYNBrenderer-0.0.0\src\IPYNBrenderer.egg-info
+Writing IPYNBrenderer-0.0.0\setup.cfg
+creating '.tox\dist\IPYNBrenderer-0.0.0.zip' and adding 'IPYNBrenderer-0.0.0' to it
+adding 'IPYNBrenderer-0.0.0'
+adding 'IPYNBrenderer-0.0.0\src'
+adding 'IPYNBrenderer-0.0.0\LICENSE'
+adding 'IPYNBrenderer-0.0.0\PKG-INFO'
+adding 'IPYNBrenderer-0.0.0\pyproject.toml'
+adding 'IPYNBrenderer-0.0.0\README.md'
+adding 'IPYNBrenderer-0.0.0\setup.cfg'
+adding 'IPYNBrenderer-0.0.0\setup.py'
+adding 'IPYNBrenderer-0.0.0\src\ IPYNBrenderer'
+adding 'IPYNBrenderer-0.0.0\src\IPYNBrenderer.egg-info'
+adding 'IPYNBrenderer-0.0.0\src\ IPYNBrenderer\__init__.py'
+adding 'IPYNBrenderer-0.0.0\src\IPYNBrenderer.egg-info\dependency_links.txt'
+adding 'IPYNBrenderer-0.0.0\src\IPYNBrenderer.egg-info\PKG-INFO'
+adding 'IPYNBrenderer-0.0.0\src\IPYNBrenderer.egg-info\requires.txt'
+adding 'IPYNBrenderer-0.0.0\src\IPYNBrenderer.egg-info\SOURCES.txt'
+adding 'IPYNBrenderer-0.0.0\src\IPYNBrenderer.egg-info\top_level.txt'
+removing 'IPYNBrenderer-0.0.0' (and everything under it)
